@@ -1,5 +1,7 @@
 # PortfolioHUB
 
+[![Versão](https://img.shields.io/github/v/tag/lucasmalinski/Bootcamp1-Intermediaria?label=vers%C3%A3o)](CHANGELOG.md) [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-065f46)](https://lucasmalinski.github.io/Bootcamp1-Intermediaria/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasmalinski-0a66c2)](https://www.linkedin.com/in/lucasmalinski)
+
 Repositório central do meu portfólio: reúne, organiza e documenta meus projetos acadêmicos e pessoais
 em Engenharia e Ciência de Dados. O código de cada projeto vive no seu próprio repositório; aqui ficam
 a documentação padronizada e os links.
@@ -51,7 +53,7 @@ Cada pasta de projeto tem um `README.md` no mesmo formato: resumo, contexto, tec
 O repositório segue versionamento semântico com tags Git:
 
 - `v1.0`: estrutura inicial, READMEs por projeto e página no GitHub Pages
-- `v1.1`: alterações após a publicação (ver histórico de commits)
+- `v1.1`: changelog, badges e versão na página (ver [CHANGELOG.md](CHANGELOG.md))
 
 Mensagens de commit seguem o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) (`feat:`, `docs:`, `fix:`).
 
