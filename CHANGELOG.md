@@ -2,6 +2,11 @@
 
 Todas as mudanças relevantes deste repositório. Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e [versionamento semântico](https://semver.org/lang/pt-BR/).
 
+## [1.2] — 2026-10-17
+
+### Adicionado
+- Seção "Uso de Inteligência Artificial" no README, conforme o Código de Ética do UniCEUB.
+
 ## [1.1] — 2026-10-17
 
 ### Adicionado

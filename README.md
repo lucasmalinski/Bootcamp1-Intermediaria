@@ -54,9 +54,19 @@ O repositório segue versionamento semântico com tags Git:
 
 - `v1.0`: estrutura inicial, READMEs por projeto e página no GitHub Pages
 - `v1.1`: changelog, badges e versão na página (ver [CHANGELOG.md](CHANGELOG.md))
+- `v1.2`: declaração de uso de IA
 
 Mensagens de commit seguem o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) (`feat:`, `docs:`, `fix:`).
 
-## Como publicar o GitHub Pages
+## Uso de Inteligência Artificial
 
-Settings → Pages → *Deploy from a branch* → branch `main`, pasta `/docs`.
+Em conformidade com o Código de Ética do UniCEUB (Art. 7º, §2º), declaro que usei o **Claude (Anthropic)**,
+via Claude Code, como apoio na montagem deste repositório:
+
+- **Estrutura e redação:** geração da estrutura de pastas, dos READMEs de cada projeto (resumidos a partir
+  dos READMEs originais dos meus repositórios) e da página em `docs/`.
+- **Versionamento:** apoio na criação dos commits e das tags `v1.0` e `v1.1` (identificados com
+  `Co-Authored-By: Claude` no histórico).
+
+Os projetos listados, seu código e sua documentação original são de minha autoria (ou coautoria, quando
+indicado).
