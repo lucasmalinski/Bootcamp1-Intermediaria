@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortfolioHUB — Lucas Malinski</title>
+  <meta name="description" content="Portfólio de projetos acadêmicos e pessoais em Engenharia e Ciência de Dados.">
+  <style>
+    :root { --text: #111827; --muted: #4b5563; --accent: #065f46; --bg: #ffffff; --soft: #f9fafb; --border: #e5e7eb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e5e7eb; --muted: #9ca3af; --accent: #34d399; --bg: #0f1115; --soft: #171a21; --border: #2a2f3a; }
+    }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.55;
+           color: var(--text); background: var(--bg); max-width: 1040px; margin: 0 auto; padding: 48px 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { margin-bottom: 40px; }
+    h1 { font-size: 2rem; margin: 0; }
+    .lead { color: var(--muted); margin: 6px 0 14px; }
+    nav a { display: inline-block; margin: 0 8px 8px 0; padding: 6px 12px; border: 1px solid var(--border); border-radius: 4px; color: var(--text); }
+    nav a:hover { background: var(--soft); text-decoration: none; }
+    h2 { font-size: .85rem; letter-spacing: 1.2px; text-transform: uppercase; margin: 40px 0 16px; }
+    h2::before { content: ""; display: block; width: 32px; height: 2px; background: var(--accent); margin-bottom: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    .card { border: 1px solid var(--border); border-radius: 8px; padding: 18px; background: var(--soft); display: flex; flex-direction: column; }
+    .card h3 { margin: 0 0 4px; font-size: 1.05rem; }
+    .card p { margin: 0 0 10px; font-size: .92rem; }
+    .ctx { color: var(--muted); font-size: .82rem !important; }
+    .tags { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+    .tags li { font-size: .75rem; padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
+    .links { margin-top: auto !important; font-size: .88rem !important; }
+    footer { margin-top: 56px; color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lucas Patriota Malinski</h1>
+    <p class="lead">Engenharia e Ciência de Dados · projetos acadêmicos e pessoais</p>
+    <nav>
+      <a href="https://www.linkedin.com/in/lucasmalinski">LinkedIn</a>
+      <a href="https://github.com/lucasmalinski">GitHub</a>
+      <a href="https://lucasmalinski.dev">Currículo</a>
+      <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria">Repositório deste hub</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Projetos Acadêmicos</h2>
+      <div class="grid">
+      <article class="card">
+        <h3>Análise Hospitalar SUS-DF</h3>
+        <p class="ctx">Projeto final — Business Intelligence II (CEUB), em dupla com Erick Cardoso Mendes</p>
+        <p>Painel analítico do desempenho da rede hospitalar do SUS no Distrito Federal (2022–2025), pensado como instrumento de vigilância para o Conselho de Saúde do DF.</p>
+        <ul class="tags"><li>Python</li><li>GitHub Actions</li><li>Azure Blob Storage</li><li>Parquet</li><li>Power BI</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/analise-hospitalar-sus-df">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/analise-hospitalar-sus-df/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Warehouse de Risco de Crédito + Machine Learning</h3>
+        <p class="ctx">Projeto final — Desenvolvimento para Ciência de Dados II (CEUB)</p>
+        <p>Solução de dados ponta a ponta: ingestão bruta, Star Schema em camadas (Bronze → Analytics) e modelos preditivos de inadimplência e taxa de juros.</p>
+        <ul class="tags"><li>PostgreSQL</li><li>SQL</li><li>Python</li><li>Pandas</li><li>scikit-learn</li><li>Jupyter</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/risco-de-credito">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/risco-de-credito/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>YAHT — Yet Another Habit Tracker</h3>
+        <p class="ctx">Bootcamp II — Prof. Dr. Romes Heriberto</p>
+        <p>Tracker de hábitos minimalista em linha de comando, com registro diário e histórico salvo localmente em JSON.</p>
+        <ul class="tags"><li>Python</li><li>JSON</li><li>unittest</li><li>ruff</li><li>GitHub Actions</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/yaht">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/yaht/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Modelagem de Dados Avançada — EVG</h3>
+        <p class="ctx">Disciplina de modelagem de dados (UniCEUB)</p>
+        <p>Modelagem conceitual, lógica e dimensional de dados de matrículas da Escola Virtual de Governo, com painel publicado.</p>
+        <ul class="tags"><li>Power BI</li><li>Power Query (M)</li><li>Modelagem dimensional</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/modelagem_dados_EVG">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/modelagem_dados_EVG/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Dashboard de Performance Cinematográfica (IMDB)</h3>
+        <p class="ctx">Disciplina de BI (UniCEUB)</p>
+        <p>Análise exploratória e financeira de mais de 33 mil filmes, focada em rentabilidade e na correlação entre crítica e premiações.</p>
+        <ul class="tags"><li>Power BI</li><li>Power Query (M)</li><li>DAX</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/painel_dados_imdb">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/painel_dados_imdb/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Bolsa Família — Painel com RLS</h3>
+        <p class="ctx">Disciplina de BI (UniCEUB)</p>
+        <p>Painel de repasses do Bolsa Família com segurança em nível de linha (RLS) por região.</p>
+        <ul class="tags"><li>Power BI</li><li>DAX</li><li>Row-Level Security</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/bolsafamilia-rls">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/bolsafamilia-rls/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Monitoramento de Tráfego</h3>
+        <p class="ctx">Estrutura de Dados — CEUB, Prof. Fábio Ramos (em dupla com Mateus Itibal)</p>
+        <p>Exercício de estruturas de dados aplicado a um cenário de monitoramento de tráfego.</p>
+        <ul class="tags"><li>Python</li><li>Estruturas de dados</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/monitoramento_trafego">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/monitoramento_trafego/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Laboratórios de Fundamentos de Big Data</h3>
+        <p class="ctx">Fundamentos de Big Data (UniCEUB) — fork do repositório da disciplina</p>
+        <p>Laboratórios práticos da disciplina, desenvolvidos a partir do repositório base do professor.</p>
+        <ul class="tags"><li>MongoDB</li><li>Jupyter</li><li>Python</li><li>VirtualBox</li><li>NoSQL</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/ceub-bigdata">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/ceub-bigdata/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Estruturas de Dados — Ciência de Dados</h3>
+        <p class="ctx">Estrutura de Dados (CEUB) — fork do repositório da disciplina</p>
+        <p>Exercícios da disciplina de Estrutura de Dados do curso de Ciência de Dados.</p>
+        <ul class="tags"><li>Python</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/Estruturas_Dados_CD">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/Estruturas_Dados_CD/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Bootcamp I — PortfolioHUB</h3>
+        <p class="ctx">Bootcamp I (CEUB) — Entrega Intermediária: Criação de Repositório com Versionamento</p>
+        <p>Este próprio repositório: um hub que organiza e documenta meus projetos acadêmicos e pessoais, versionado com Git e publicado via GitHub Pages.</p>
+        <ul class="tags"><li>Git</li><li>GitHub</li><li>GitHub Pages</li><li>Markdown</li><li>HTML/CSS</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/academicos/bootcamp-I/README.md">README</a></p>
+      </article>
+      </div>
+    </section>
+    <section>
+      <h2>Projetos Pessoais</h2>
+      <div class="grid">
+      <article class="card">
+        <h3>CVM Extractor</h3>
+        <p class="ctx">Projeto final do CS50x (Harvard)</p>
+        <p>Aplicação web que automatiza a extração e a visualização dos dados de composição de carteiras (CDA) de fundos de investimento publicados pela CVM.</p>
+        <ul class="tags"><li>Python</li><li>Flask</li><li>Pandas</li><li>Bootstrap</li><li>DataTables</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/cvm_extractor">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/cvm_extractor/README.md">README</a> · <a href="https://cvm-fundos2.onrender.com/">App online</a></p>
+      </article>
+      <article class="card">
+        <h3>Financial Sentiment Pipeline</h3>
+        <p class="ctx">Projeto pessoal</p>
+        <p>Pipeline que coleta notícias de cripto do Yahoo Finance a cada meia hora e as acumula em CSV sem duplicatas.</p>
+        <ul class="tags"><li>Python</li><li>BeautifulSoup4</li><li>Pandas</li><li>dateparser</li><li>GitHub Actions</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/financial-sentiment-pipeline">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/financial-sentiment-pipeline/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>BanVic — Pipeline de Dados</h3>
+        <p class="ctx">Desafio técnico do processo seletivo Indicium Lighthouse</p>
+        <p>Pipeline de engenharia de dados que extrai de CSV e de PostgreSQL, passa por um data lake local e carrega em um data warehouse.</p>
+        <ul class="tags"><li>Airflow</li><li>Meltano</li><li>Docker</li><li>PostgreSQL</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/banvic_indicium">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/banvic_indicium/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Infradata</h3>
+        <p class="ctx">Projeto pessoal</p>
+        <p>Pacote Python com pipeline de dados geoespaciais de infrações e fluxo de tráfego, organizado em camadas raw → silver.</p>
+        <ul class="tags"><li>Python</li><li>Conda</li><li>GeoPandas</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/infradata">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/infradata/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>CS50x — Exercícios</h3>
+        <p class="ctx">CS50x (Harvard), semanas 1 a 9</p>
+        <p>Backup organizado dos exercícios resolvidos no CS50x, de C a aplicações web com Flask.</p>
+        <ul class="tags"><li>C</li><li>Python</li><li>SQL</li><li>HTML/CSS/JS</li><li>Flask</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/backup_cs50x">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/backup_cs50x/README.md">README</a></p>
+      </article>
+      <article class="card">
+        <h3>Currículo Web</h3>
+        <p class="ctx">Projeto pessoal</p>
+        <p>Meu currículo em página web estática, bilíngue (EN/PT-BR), com layout pronto para impressão e domínio próprio.</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>GitHub Pages</li><li>Google Analytics</li></ul>
+        <p class="links"><a href="https://github.com/lucasmalinski/lucasmalinski.github.io">Repositório</a> · <a href="https://github.com/lucasmalinski/Bootcamp1-Intermediaria/blob/main/pessoais/curriculo-web/README.md">README</a> · <a href="https://lucasmalinski.dev">Site</a></p>
+      </article>
+      </div>
+    </section>
+  </main>
+  <footer>PortfolioHUB · Bootcamp I · publicado via GitHub Pages</footer>
+</body>
+</html>
