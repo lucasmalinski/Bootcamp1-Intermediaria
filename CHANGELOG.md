@@ -2,6 +2,15 @@
 
 Todas as mudanças relevantes deste repositório. Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e [versionamento semântico](https://semver.org/lang/pt-BR/).
 
+## [2.0] — 2026-10-25
+
+### Adicionado
+- `SECURITY.md`, `CONTRIBUTING.md`, `CODEOWNERS` e template de Pull Request.
+
+### Segurança
+- Branch `main` protegida por ruleset (só por Pull Request, sem force-push).
+- Secret scanning e push protection ativados.
+
 ## [1.2] — 2026-10-17
 
 ### Adicionado
