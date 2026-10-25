@@ -55,8 +55,15 @@ O repositório segue versionamento semântico com tags Git:
 - `v1.0`: estrutura inicial, READMEs por projeto e página no GitHub Pages
 - `v1.1`: changelog, badges e versão na página (ver [CHANGELOG.md](CHANGELOG.md))
 - `v1.2`: declaração de uso de IA
+- `v2.0`: implantação — segurança e fluxo de colaboração
 
 Mensagens de commit seguem o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) (`feat:`, `docs:`, `fix:`).
+
+## Segurança e colaboração
+
+- A branch `main` é protegida: mudanças só entram por Pull Request.
+- Políticas e reporte de vulnerabilidades em [SECURITY.md](SECURITY.md).
+- Fluxo de contribuição, padrão de commits e como adicionar projetos em [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Uso de Inteligência Artificial
 
@@ -67,6 +74,8 @@ via Claude Code, como apoio na montagem deste repositório:
   dos READMEs originais dos meus repositórios) e da página em `docs/`.
 - **Versionamento:** apoio na criação dos commits e das tags `v1.0` e `v1.1` (identificados com
   `Co-Authored-By: Claude` no histórico).
+- **Implantação (v2.0):** o Claude foi o guia da implantação: plano, políticas de segurança, fluxo de colaboração, documentação do processo e slides
+  da apresentação.
 
 Os projetos listados, seu código e sua documentação original são de minha autoria (ou coautoria, quando
 indicado).
